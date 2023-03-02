@@ -1,0 +1,103 @@
+@import "style.sass";
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    width: 1175px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-logo {
+    width: 320px;
+    margin: auto;
+
+}
+
+.head-logo img{
+    width: 50%;
+    margin-left: -80px;
+}
+
+img {
+    /*width: 50%;*/
+    padding: 20px;
+}
+
+.head-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+    color: #1F1534;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+li:hover {
+    opacity: 100;
+}
+
+.content {
+    max-width: 1175px;
+    margin: auto;
+}
+
+.content-hero {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 1.5rem;
+}
+
+.content-hero-img img {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-hero-text {
+    width: 320px;
+    margin: auto;
+}
+
+.content-hero-text h1{
+    font-weight: 700;
+}
+
+.content-hero-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.content-hero-text button{
+    padding: 15px;
+    border-radius: 25px;
+    background: #458FF6;
+}
+
+.content-hero-text button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content-hero-text button:hover{
+    padding: 18px;
+    transition: width 1s;
+}
+
+
