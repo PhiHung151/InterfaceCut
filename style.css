@@ -100,4 +100,39 @@ li:hover {
     transition: width 1s;
 }
 
+.content-services {
+    padding-top: 15px;
+}
+
+.services-decoration {
+    background: black;
+    border-radius: 5px;
+}
+
+.content-services p {
+    text-align: center;
+    font-weight: 300;
+    color: #7D7987;
+    padding: 30px;
+}
+
+.content-services h1 {
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.services-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-menu {
+    width: 350px;
+    box-shadow: 10px 40px 50px rgb(229 233 246 / 40%);
+    border-radius: 20px;
+}
+
 
