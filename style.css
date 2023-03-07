@@ -7,6 +7,32 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.services-menu .menu-content p{
+    font-weight: 300;
+    color: #7D7987;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.menu-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.services-option {
+    display: flex;
+    flex-direction: row;
+}
+
 header {
     width: 1175px;
     margin: auto;
@@ -109,11 +135,16 @@ li:hover {
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
 .services-header p {
+=======
+.content-services .our-services {
+>>>>>>> 32798f6a26accf22c8fab785b48bb79cb8da6e3f
     text-align: center;
     font-weight: 300;
     color: #7D7987;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .content-services h1 {
@@ -122,17 +153,23 @@ li:hover {
     padding: 20px;
 }
 
-.services-option {
+.services-option{
     display: flex;
+<<<<<<< HEAD
     /*justify-content: space-between;*/
     align-items: center;
+=======
+    flex-direction: row;
+>>>>>>> 32798f6a26accf22c8fab785b48bb79cb8da6e3f
     flex-wrap: wrap;
 }
+
 
 .services-menu {
     width: 33.33333%;
     box-shadow: 10px 40px 50px rgb(229 233 246 / 40%);
     border-radius: 20px;
+<<<<<<< HEAD
 
 }
 
@@ -149,6 +186,28 @@ li:hover {
 
 .menu-text p{
     padding-top:20px ;
+=======
+    margin-top: 5px;
+>>>>>>> 32798f6a26accf22c8fab785b48bb79cb8da6e3f
 }
 
 
+.services-menu .menu-button{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.menu-button button{
+    padding: 15px;
+    border: 1px solid #458FF6;
+    border-radius: 25px;
+    background: none
+}
+
+.menu-button button a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #458FF6;
+
+}
