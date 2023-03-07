@@ -109,7 +109,7 @@ li:hover {
     border-radius: 5px;
 }
 
-.content-services p {
+.services-header p {
     text-align: center;
     font-weight: 300;
     color: #7D7987;
@@ -124,15 +124,31 @@ li:hover {
 
 .services-option {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
     flex-wrap: wrap;
 }
 
 .services-menu {
-    width: 350px;
+    width: 33.33333%;
     box-shadow: 10px 40px 50px rgb(229 233 246 / 40%);
     border-radius: 20px;
+
+}
+
+.menu-icons {
+    padding-left: 40px;
+}
+
+.menu-text {
+    text-align: start;
+    width: 70%;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.menu-text p{
+    padding-top:20px ;
 }
 
 
